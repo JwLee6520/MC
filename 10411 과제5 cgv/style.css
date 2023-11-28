@@ -26,8 +26,10 @@ header{
     
 }
 .card{
-    width: 200px;
-    height: 100px;
+    width: 150px;
+    height: 50px;
+    margin-bottom: 20px;
+
 }
 .icon{
     display: flex;
@@ -41,14 +43,25 @@ header{
 }
 .dropdown{
     width: 100%;
-    border: 1px solid;
-    /* display: flex; */
+}
+.dropdown-bar{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    /* border: 1px solid; */
 }
 .dropdown-nav{
-    border: 1px solid;
+    /* border: 1px solid; */
     display: flex;
     justify-content: space-between;
-   width: 300px;
+   width: 400px;
    height: 100%;
-  
+   font-weight: bold;
+   margin-right: 200px;
+}
+.search{
+    margin-left: 400px;
+}
+.red{
+    color: red;
 }
